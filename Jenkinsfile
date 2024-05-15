@@ -1,6 +1,6 @@
 node {
 
-   def registryProjet='buildjenkins/'
+   def registryProjet='chevalt-project/'
    def IMAGE="${registryProjet}app:4.2"
 
     stage('Clone') {
